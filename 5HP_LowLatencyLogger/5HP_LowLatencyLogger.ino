@@ -42,7 +42,6 @@ MPU9250 IMU(Wire,0x68); //Define IMU object
 #define pin5 A18  
 #define aref_voltage 3.3
 
-
 //Select SS for Teensy, 10 for DUE + data Logger shield
 // SDCARD_SS_PIN is defined for the built-in SD on some boards.
 #ifndef SDCARD_SS_PIN
